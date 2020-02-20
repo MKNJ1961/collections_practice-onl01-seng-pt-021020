@@ -12,10 +12,7 @@
       a.length <=> b.length
   end
   
-  def swap_elements(array)
-    array.sort do
-  end
-  
+
 end
   
   
