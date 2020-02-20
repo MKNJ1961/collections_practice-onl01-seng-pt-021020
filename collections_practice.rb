@@ -4,7 +4,7 @@
 
   
   # def sort_array_desc(array)
-  #   array.sort { |b, a| a <=> b }filter_parameter_logging
+  #   array.sort { |b, a| a <=> b }
   # end
 
 
