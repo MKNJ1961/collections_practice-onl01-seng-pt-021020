@@ -8,7 +8,7 @@
   end
   
   def sort_array_char_count(array)
-    array.sort { |a, b| array.length (a <=> b)}
+    array.sort { |word| word.length}
   end
     
 
