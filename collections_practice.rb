@@ -8,10 +8,11 @@ require 'pry'
   def sort_array_desc(array)
     array.sort { |a, b| b <=> a }
   end
-  binding.pry
+  
   sort_array_char_count(array)def 
     array.sort do |a, b| 
       a.length <=> b.length
+      binding.pry
   end
 end
 
