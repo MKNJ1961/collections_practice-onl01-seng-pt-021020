@@ -9,7 +9,7 @@ require 'pry'
     array.sort { |a, b| b <=> a }
   end
   binding.pry
-  def sort_array_char_count(array)
+  sort_array_char_count(array)def 
     array.sort do |a, b| 
       a.length <=> b.length
   end
