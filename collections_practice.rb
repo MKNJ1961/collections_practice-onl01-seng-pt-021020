@@ -9,9 +9,9 @@
   def sort_array_desc(array)
     array.sort { |a, b| b <=> a }
   end
-  binding.pry
+  
   def sort_array_char_count(array)
-    
+     binding.pry
     array.sort do |a, b| 
       a.length <=> b.length
   end
