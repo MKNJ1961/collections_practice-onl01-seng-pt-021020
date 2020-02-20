@@ -8,6 +8,7 @@
   end
   
   def sort_aray_char_count(array)
+    array.sort { |a, b| 
     
 
 
