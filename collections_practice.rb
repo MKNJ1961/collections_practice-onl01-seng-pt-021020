@@ -16,7 +16,7 @@
   end
   
   def reverse_array(array)
-    array.reverse do { |a, b| b <=> a }
+    array.reverse do {  b <=> a }
   end
   
     
