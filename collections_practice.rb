@@ -13,7 +13,6 @@
     array.sort do |a, b| 
       a.length <=> b.length
   end
-  true
 end
 
     def swap_elements(array)
