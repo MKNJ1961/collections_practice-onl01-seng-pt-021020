@@ -12,9 +12,9 @@
       a.length <=> b.length
   end
 
-  def swap_elements(strings)
+  def swap_elements(array)
     strings[1], strings[2] = strings[2], strings[1]
-    return swap_elements
+    return array
   end
 end
   
