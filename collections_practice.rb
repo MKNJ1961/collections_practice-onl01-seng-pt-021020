@@ -13,7 +13,7 @@
   end
 
   def swap_elements(array)
-    strings[1], strings[2] = strings[2], strings[1]
+    index[1], index[2] = index[2], index[1]
     return array
   end
 end
