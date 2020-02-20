@@ -14,10 +14,10 @@
       a.length <=> b.length
   end
 
-#   def swap_elements(array)
-#     array.sort do array[1], array[2] = array[2], array[1]
-    
-#   end
+    def swap_elements(array)
+        array[1], array[2] = array[2], array[1]
+      
+    end
   end
   
 
