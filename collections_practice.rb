@@ -7,7 +7,7 @@
     array.sort { |a, b| b <=> a }
   end
   
-  def sort_aray_char_count(array)
+  def sort_array_char_count(array)
     array.sort { |a, b| array.length (a <=> b)}
   end
     
