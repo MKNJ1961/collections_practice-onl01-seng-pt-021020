@@ -15,9 +15,9 @@
     array.sort do
   end
   
-  def reverse_array(array)
-    array.sort do {| a, b| a <=> b } a.reverse_each
-  end
+  # def reverse_array(array)
+  #   array.sort do {| a, b| a <=> b } a.reverse_each
+  # end
   
     
   
